@@ -1,3 +1,7 @@
+---
+use_math: true
+---
+
 # Reinforcement Learning: Multi-armed Bandits
 
 Tags: Bandits, Reinforcement Learning
@@ -41,12 +45,12 @@ class TestBed(object):
         self.sig = np.ones(self.n, dtype=np.float32) # action values variance
         self.id = uuid.uuid1() # id of the testbed
 
-	# At each step, we draw the reward from a normal (Gaussian) distribution
-	# with mean and variance for the corresponding bandit
+    # At each step, we draw the reward from a normal (Gaussian) distribution
+    # with mean and variance for the corresponding bandit
     def get_dist(self, index, size=1):
         return self.rng.normal(self.mu[index], self.sig[index], size=size)
 
-	# Helper function for representation
+    # Helper function for representation
     def __str__(self) -> str:
         return (
             f"{self.n}-armed Testbed\n"
@@ -102,7 +106,7 @@ class BanditExperiment(object):
         else:
             return self.rng.integers(self.testbed.n)
 
-	# Update action values given action i is picked
+    # Update action values given action i is picked
     def _update_action_value_expectation(self, i):
         old_expected_reward = self.expected_rewards[i]
         reward = self.testbed.get_dist(i)
@@ -113,7 +117,7 @@ class BanditExperiment(object):
         )
         return reward
 
-	# Run bandit experiment for steps, print status echo_every timesteps
+    # Run bandit experiment for steps, print status echo_every timesteps
     def run(self, steps, echo_every=-1):
         rewards = np.zeros(steps, dtype=np.float32)
         start = timer()
@@ -124,7 +128,7 @@ class BanditExperiment(object):
                 print(f"Finished step: {s+1}, elapsed time: {timer()-start}")
         return rewards
 
-	# Helper function for representation
+    # Helper function for representation
     def __str__(self) -> str:
         return (
             f"Epsilon: {self.epsilon}\n"
