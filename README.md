@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Ravi Bhadauria
+### ML Engineering @ Etsy
 
-You can use the [editor on GitHub](https://github.com/bhadauria-ravi/bhadauria-ravi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## [Blog](blog/table_of_contents.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am a Senior ML Engineer at Etsy Inc., where I work on orchestration systems for online model inference.
 
-### Markdown
+Before Etsy, I worked at Centene Corporation where I was  involved in creating and deploying scalable Machine Learning solutions to mitigate Fraud, Waste, and Abuse in the medical claims area. I am equally competent using techniques from both shallow and deep learning, and productionalizing boutique data science models within the in house ML infrastructure.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Prior to Centene, at Intel Corporation, I was a Senior Imagining Scientist / Software Engineer and was involved in Intel’s creating digital twin of lithography process that involved working in cross functional domain such as image processing, and developing chemical and optical computational models.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bhadauria-ravi/bhadauria-ravi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+As a doctoral student in the department of Mechanical Science and Engineering at the University of Illinois at Urbana-Champaign, I worked on [computational transport models](phdwork/research.md) in nanopores and nanochannels that bridged the gap between particle based simulations with continuum formulations. [Google Scholar]([‪Ravi Bhadauria‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=v7wZ9hsAAAAJ&hl=en))
